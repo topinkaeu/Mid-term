@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="Mid_term.js"></script>
+</head>
+
+<body>
+
+<header>
+<h1>Pulse Point Login</h1>
+</header>
+
+<main style="margin-left:0">
+
+<h2>Login Form</h2>
+
+<label>Practitioner ID</label>
+<input type="text" placeholder="Enter ID">
+
+<label>Password</label>
+<input type="password" id="password">
+
+<button onclick="togglePassword()">Toggle Visibility</button>
+
+<br><br>
+
+<label>Select Role</label>
+<select id="role">
+<option>Anonymous</option>
+<option>Nurse</option>
+<option>Admin</option>
+</select>
+
+<p id="feedback">Password strength</p>
+
+<button onclick="login()">Login</button>
+
+</main>
+
+<footer>
+<p>Hospital System</p>
+</footer>
+
+</body>
+</html>

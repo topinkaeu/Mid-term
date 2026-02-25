@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Admin Page</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="Mid_term.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Admin Dashboard</h1>
+        </header>
+
+            <nav class="sidebar">
+                <a href="nurse.html">Dashboard</a>
+                <a href="admin.html">Admin</a>
+                <button onclick="logout()">Logout</button>
+            </nav>
+
+    <main>
+
+        <h2>Hospital Overview</h2>
+
+            <div class="card-grid">
+
+                <div class="card">
+                    Patient Alerts: 7
+                </div>
+
+            <div class="card">
+            Bed Available: 10
+            </div>
+
+            <div class="card">
+            Medicine Orders: 15
+            </div>
+
+            <div class="card">
+            Database Backup: 12:00 PM
+            </div>
+
+        </div>
+
+    <h3>Staff List in the hospital</h3>
+        <ul>
+        <li>Dr Ronaldo</li>
+        <li>Dr Messi</li>
+        <li>Nurse Neymar Jr</li>
+        <li>Nurse Mbappe</li>
+        </ul>
+
+    </main>
+
+    <footer>
+    <p>Hospital System</p>
+    </footer>
+
+    <script>
+    checkAdminAccess();
+    </script>
+
+</body>
+</html>

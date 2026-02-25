@@ -1,0 +1,71 @@
+body{
+margin:0;
+font-family:Arial;
+background:#f1f5f9;
+}
+
+header, footer {
+  background: #0f172a;
+  color: white;
+  padding: 15px;
+  
+  /* Remove margin-left to stop the offset */
+  margin-left: 0; 
+  
+  /* Force full width */
+  width: 100%;
+  box-sizing: border-box; /* Ensures padding doesn't push the width over 100% */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+main{
+margin-left:240px;
+padding:20px;
+}
+
+input, select, button{
+display:block;
+margin:10px 0;
+padding:8px;
+}
+
+.sidebar{
+position:fixed;
+left:0;
+top:0;
+width:220px;
+height:100%;
+background:#1e293b;
+padding-top:80px;
+}
+
+.sidebar a, .sidebar button{
+display:block;
+color:white;
+padding:12px;
+text-decoration:none;
+border:none;
+background:none;
+width:100%;
+text-align:left;
+cursor:pointer;
+}
+
+.card-grid{
+display:grid;
+grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
